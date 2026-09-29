@@ -7,7 +7,7 @@ This is a pure bundle plugin. It does not patch DeepSeek Harness. Its compositio
 ## Install
 
 ```bash
-dsh plugin --profile web add /path/to/deepseek-harness-plugins/subscription-logins
+dsh plugin --profile web add /path/to/deepseek-harness/plugins/subscription-logins
 ```
 
 Restart `dsh web`, then open **Settings → Logins**. Name each login as you add it, for example `Work` or `Personal`. The page keeps multiple credentials per provider and marks one active. Select **Use** to change the account used by the next model request.
